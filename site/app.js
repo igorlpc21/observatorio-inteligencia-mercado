@@ -24,7 +24,7 @@ function parseCSV(text) {
 
 const number = value => Number(String(value).replace(',', '.')) || 0;
 const fmt = value => new Intl.NumberFormat('pt-BR').format(value);
-const clean = value => String(value).replaceAll('�', 'ã');
+const clean = value => String(value);
 
 function renderKPIs() {
   const productSources = state.indicators.filter(d => d.nivel_dado === 'PRODUTO');
