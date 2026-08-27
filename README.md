@@ -1,509 +1,479 @@
-# Observatório — Inteligência de Mercado
+<div align="center">
 
-Projeto de inteligência competitiva criado para organizar informações públicas de distribuidores, avaliar a cobertura dos catálogos, medir a qualidade dos dados e identificar produtos potencialmente semelhantes entre empresas do mercado.
+# 🔎 Observatório de Inteligência de Mercado
 
-## 🌐 Observatório online
+### Python • Web Scraping • Pandas • Data Quality • Product Matching • GitHub Pages
 
-**Acesse a versão publicada:**
+Projeto de **Inteligência de Mercado e análise de dados públicos** desenvolvido para coletar, estruturar, validar e comparar informações disponíveis publicamente entre empresas do setor de distribuição.
 
-👉 https://igorlpc21.github.io/observatorio-inteligencia-mercado/
+🌐 [Acessar Observatório Online](https://igorlpc21.github.io/observatorio-inteligencia-mercado/)
 
-A versão web apresenta os principais indicadores do projeto, cobertura das bases, qualidade dos dados, distribuição das faixas de similaridade e uma bancada interativa para explorar pares de produtos candidatos à equivalência.
-
-> **Importante:** similaridade textual indica um candidato à investigação. Ela não comprova equivalência comercial, técnica, regulatória ou de aplicação entre produtos.
+</div>
 
 ---
 
-## Objetivo do projeto
+## 🎯 Visão do projeto
 
-O Observatório foi desenvolvido para transformar dados públicos dispersos em uma estrutura comparável de inteligência de mercado.
+O projeto transforma dados públicos dispersos em uma estrutura analítica capaz de apoiar análises de:
 
-A proposta não é definir qual empresa é melhor, mas criar critérios padronizados de observação que permitam:
+- cobertura de catálogo;
+- qualidade das informações;
+- presença de marcas e segmentos;
+- sobreposição de portfólio;
+- similaridade entre produtos;
+- oportunidades de melhoria na disponibilização pública dos dados.
 
-* mapear a presença pública das empresas;
-* organizar produtos, marcas e segmentos;
-* medir cobertura e qualidade das informações;
-* identificar sobreposição entre portfólios;
-* gerar hipóteses para investigação comercial;
-* apoiar análises de posicionamento;
-* criar uma base evolutiva que possa receber novas fontes ao longo do tempo.
+O objetivo não é criar um ranking entre empresas.
 
----
-
-## Empresas observadas
-
-O recorte atual contempla:
-
-| Empresa               | Granularidade disponível | Uso analítico                       |
-| --------------------- | ------------------------ | ----------------------------------- |
-| Fortali Distribuidora | Produto                  | Variedade, nomes e embalagens       |
-| Casa Garcia Gourmet   | Produto                  | Variedade, nomes e embalagens       |
-| Milk Distribuidora    | Produto                  | Variedade, nomes e embalagens       |
-| Safra Distribuidora   | Marca                    | Presença de marcas e segmentos      |
-| WMix Ceará            | Segmento                 | Posicionamento público por segmento |
-
-Nem todas as empresas disponibilizam o mesmo nível de detalhe.
-
-Por isso, as análises respeitam a granularidade real de cada fonte e evitam comparar informações que não são equivalentes.
+A proposta é aplicar **critérios consistentes de análise**, respeitando a granularidade disponível em cada fonte.
 
 ---
 
-## O que o projeto entrega
+## 🧠 Competências demonstradas
 
-O repositório reúne todo o ciclo analítico:
-
-* coleta de informações públicas;
-* armazenamento dos dados brutos;
-* extração de informações;
-* normalização de nomes, códigos e embalagens;
-* auditoria de qualidade;
-* tratamento de duplicidades;
-* consolidação de catálogos;
-* criação de indicadores;
-* análise de similaridade de produtos;
-* revisão exploratória dos candidatos;
-* geração de gráficos;
-* publicação do Observatório em ambiente web.
+| Competência | Aplicação no projeto |
+|---|---|
+| Web Scraping | Coleta estruturada de informações públicas |
+| Python | Automação do pipeline analítico |
+| Pandas | Tratamento, consolidação e análise dos dados |
+| Data Cleaning | Padronização de nomes, unidades e embalagens |
+| Data Quality | Auditoria de nulos, duplicidades e inconsistências |
+| Data Matching | Identificação de produtos potencialmente semelhantes |
+| Text Similarity | Comparação de nomes normalizados |
+| Business Intelligence | Construção de indicadores para análise de mercado |
+| Data Visualization | Gráficos e interface analítica |
+| Front-end | HTML, CSS e JavaScript |
+| Deployment | Publicação utilizando GitHub Pages |
+| Data Ethics | Uso responsável de informações públicas |
 
 ---
 
-## Arquitetura do processo
+# 🏗️ Arquitetura
+
+```mermaid
+flowchart LR
+    A[Fontes Públicas] --> B[Coleta]
+    B --> C[Dados Brutos]
+    C --> D[Normalização]
+    D --> E[Data Quality]
+    E --> F[Catálogo Consolidado]
+    F --> G[Product Matching]
+    G --> H[Indicadores]
+    H --> I[Observatório Web]
+```
+
+### Pipeline
 
 ```text
 Fontes públicas
       ↓
-Coleta e extração
+Web Scraping / Extração
       ↓
-Armazenamento dos dados brutos
+Dados brutos
+      ↓
+Tratamento
       ↓
 Normalização
       ↓
 Auditoria de qualidade
       ↓
-Consolidação dos catálogos
+Consolidação
       ↓
-Padronização de quantidade e unidade
+Matching de produtos
       ↓
-Bloqueio de candidatos comparáveis
-      ↓
-Similaridade textual
-      ↓
-Revisão humana
-      ↓
-Indicadores e visualizações
+Indicadores
       ↓
 Observatório Web
 ```
 
 ---
 
-## Estrutura do repositório
+# 📊 Escopo analítico
+
+O recorte atual considera diferentes níveis de informação pública.
+
+| Empresa | Granularidade analisada |
+|---|---|
+| Fortali Distribuidora | Produto |
+| Casa Garcia Gourmet | Produto |
+| Milk Distribuidora | Produto |
+| Safra Distribuidora | Marca |
+| WMix Ceará | Segmento |
+
+Uma decisão importante do projeto foi **não forçar comparações entre fontes com granularidades diferentes**.
+
+Isso evita conclusões que os próprios dados não conseguem sustentar.
+
+---
+
+# 🧹 Data Cleaning
+
+Antes das análises, os dados passam por processos de padronização.
+
+Entre os tratamentos:
 
 ```text
-.
+normalização de caixa
+remoção de acentos
+remoção de pontuação
+padronização de espaços
+tratamento de unidades
+extração de quantidade
+normalização de embalagens
+tratamento de duplicidades
+```
+
+Exemplo:
+
+```text
+Produto original
+   ↓
+Normalização
+   ↓
+Nome padronizado
+   ↓
+Quantidade-base + unidade-base
+```
+
+Essa etapa melhora a qualidade das comparações posteriores.
+
+---
+
+# ✅ Data Quality
+
+O pipeline possui uma etapa específica para avaliar a qualidade dos catálogos.
+
+São verificados pontos como:
+
+- campos vazios;
+- códigos inválidos;
+- registros duplicados;
+- inconsistências de unidade;
+- problemas de padronização;
+- granularidade da fonte;
+- ausência de informações relevantes.
+
+Fluxo:
+
+```text
+Dados coletados
+      ↓
+Auditoria
+      ↓
+Inconsistências
+      ↓
+Tratamento
+      ↓
+Base validada
+```
+
+O objetivo é simples:
+
+> **não analisar um dado antes de questionar sua qualidade.**
+
+---
+
+# 🔗 Product Matching
+
+Uma das principais funcionalidades do projeto é a identificação de produtos potencialmente semelhantes entre catálogos.
+
+O processo possui três etapas principais.
+
+### 1. Normalização
+
+```text
+Nome original
+      ↓
+Texto normalizado
+```
+
+### 2. Bloqueio por embalagem
+
+Produtos só entram no mesmo grupo de candidatos quando possuem:
+
+```text
+mesma quantidade-base
++
+mesma unidade-base
+```
+
+Exemplo:
+
+```text
+1 KG ↔ 1 KG
+500 G ↔ 500 G
+1 L ↔ 1 L
+```
+
+Isso reduz comparações sem sentido.
+
+### 3. Similaridade textual
+
+Após o bloqueio, os nomes são comparados por proximidade textual.
+
+```text
+0 ─────────────────────────── 100
+baixa                         alta
+similaridade                  similaridade
+```
+
+---
+
+## 📐 Faixas de similaridade
+
+| Faixa | Pontuação | Uso |
+|---|---:|---|
+| Alta | ≥ 85% | Forte candidato à revisão |
+| Média | 70–84,99% | Similaridade relevante |
+| Exploratória | 55–69,99% | Investigação manual |
+| Baixa | < 55% | Fora da priorização |
+
+Importante:
+
+> **Similaridade textual não significa equivalência comercial.**
+
+Ela apenas ajuda a priorizar candidatos para investigação.
+
+---
+
+# 🧠 Critério analítico
+
+O projeto foi construído para evitar conclusões além do que os dados permitem.
+
+Por isso:
+
+```text
+Ausência de informação
+        ≠
+Ausência de operação
+```
+
+e:
+
+```text
+Similaridade textual
+        ≠
+Produto equivalente
+```
+
+Essa separação entre **evidência, hipótese e conclusão** é parte central da metodologia.
+
+---
+
+# 📈 Indicadores
+
+O Observatório consolida indicadores relacionados a:
+
+```text
+registros observados
+itens únicos
+cobertura por empresa
+qualidade dos catálogos
+granularidade das fontes
+pares de similaridade
+faixas de similaridade
+sobreposição de portfólio
+```
+
+Essas informações são apresentadas na interface web.
+
+---
+
+# 🌐 Observatório Web
+
+<div align="center">
+
+### [Acessar aplicação](https://igorlpc21.github.io/observatorio-inteligencia-mercado/)
+
+</div>
+
+A interface foi desenvolvida com:
+
+```text
+HTML
+CSS
+JavaScript
+CSV
+GitHub Pages
+```
+
+Ela permite explorar:
+
+- cobertura dos dados;
+- indicadores consolidados;
+- qualidade das fontes;
+- faixas de similaridade;
+- produtos candidatos à equivalência.
+
+---
+
+# 📂 Estrutura
+
+```text
+observatorio-inteligencia-mercado/
+│
 ├── dados/
 │   ├── brutos/
-│   │   └── materiais coletados sem transformação
-│   │
 │   ├── catalogos/
-│   │   └── documentos e catálogos utilizados como fonte
-│   │
 │   └── tratados/
-│       └── tabelas normalizadas, auditadas e consolidadas
 │
 ├── docs/
-│   └── documentação do processo e decisões metodológicas
-│
 ├── graficos/
-│   └── visualizações estáticas geradas durante a análise
-│
 ├── relatorios/
-│   └── relatórios e registros analíticos
 │
 ├── site/
-│   └── versão de desenvolvimento da interface
 │
 ├── index.html
 ├── styles.css
 ├── app.js
 │
 ├── *.py
-│   └── scripts do pipeline analítico
-│
 ├── requirements.txt
-├── CONTRIBUTING.md
+│
 └── README.md
 ```
 
 ---
 
-## Tecnologias utilizadas
-
-### Coleta e tratamento
-
-* Python
-* Requests
-* BeautifulSoup
-* Expressões Regulares
-* CSV
-* Pandas
-
-### Análise
-
-* Python
-* SequenceMatcher
-* normalização textual
-* tratamento de strings
-* análise de similaridade
-* auditoria de qualidade
-
-### Visualização
-
-* Matplotlib
-* HTML
-* CSS
-* JavaScript
-
-### Versionamento e publicação
-
-* Git
-* GitHub
-* GitHub Pages
-* Visual Studio Code
-
----
-
-## Dados tratados utilizados pelo Observatório
-
-A aplicação publicada utiliza principalmente:
+# ⚙️ Principais scripts
 
 ```text
-dados/tratados/indicadores_observatorio.csv
+reconstruir_catalogo_validado.py
+auditar_qualidade_catalogos.py
+encontrar_produtos_semelhantes.py
+gerar_indicadores_observatorio.py
 ```
 
-e:
+Eles representam as principais etapas do pipeline:
 
 ```text
-dados/tratados/comparacoes_candidatas_milk_fortali.csv
+consolidação
+   ↓
+auditoria
+   ↓
+similaridade
+   ↓
+indicadores
 ```
-
-Esses arquivos alimentam os principais elementos do dashboard:
-
-* registros observados;
-* itens únicos;
-* quantidade de catálogos em nível de produto;
-* pares de alta similaridade;
-* cobertura por empresa;
-* qualidade dos catálogos;
-* distribuição das faixas de similaridade;
-* tabela de equivalências.
 
 ---
 
-## Similaridade de produtos
+# 🛠️ Tech Stack
 
-O motor atual de similaridade compara produtos Milk × Fortali.
+<div align="center">
 
-A lógica foi construída em etapas para reduzir falsos positivos.
+<img src="https://skillicons.dev/icons?i=python,html,css,js,git,github,vscode" />
 
-### 1. Normalização
+<br><br>
 
-Antes da comparação, os nomes passam por padronização.
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas"/>
+<img src="https://img.shields.io/badge/BeautifulSoup-Web%20Scraping-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Requests-HTTP-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GitHub%20Pages-Deployment-222222?style=for-the-badge&logo=github"/>
 
-Entre os tratamentos estão:
+</div>
 
-* conversão de caixa;
-* tratamento de acentos;
-* remoção de pontuação;
-* normalização de espaços;
-* separação de medidas;
-* padronização textual.
+---
 
-### 2. Bloqueio por embalagem
+# 🔄 Projeto incremental
 
-Produtos só entram no mesmo conjunto de candidatos quando possuem:
-
-* mesma quantidade-base;
-* mesma unidade-base.
-
-Exemplo:
+O Observatório foi estruturado para receber novas fontes.
 
 ```text
-1 KG × 1 KG
-500 G × 500 G
-1 L × 1 L
+Nova fonte
+    ↓
+Coleta
+    ↓
+Normalização
+    ↓
+Validação
+    ↓
+Integração
+    ↓
+Novos indicadores
 ```
 
-Isso evita comparar produtos com embalagens incompatíveis.
+Isso permite aumentar o escopo do projeto sem reconstruir todo o pipeline.
 
-### 3. Similaridade textual
+---
 
-Depois do bloqueio, os nomes normalizados são comparados por proximidade textual.
+# ⚠️ Limitações
 
-A pontuação varia de:
+O projeto preserva algumas limitações importantes.
+
+### Preço
+
+Não existe cobertura pública suficiente para comparação confiável de preços.
+
+Por isso não são feitas análises de:
 
 ```text
-0 a 100
+margem
+desconto
+política comercial
+competitividade de preço
 ```
-
-Quanto maior a pontuação, maior a proximidade entre os nomes.
-
----
-
-## Faixas de similaridade
-
-O Observatório utiliza as seguintes faixas de priorização:
-
-| Faixa         |    Pontuação | Interpretação               |
-| ------------- | -----------: | --------------------------- |
-| Alta          |        ≥ 85% | Forte candidato à revisão   |
-| Média         | 70% a 84,99% | Similaridade relevante      |
-| Exploratória  | 55% a 69,99% | Candidato para investigação |
-| Fora da lista |        < 55% | Similaridade insuficiente   |
-
-Mesmo na faixa alta, o produto ainda precisa ser verificado quanto a:
-
-* marca;
-* sabor;
-* composição;
-* aplicação;
-* categoria;
-* unidade comercial;
-* contexto do produto.
-
----
-
-## Princípio de análise
-
-O Observatório não foi construído como um ranking de empresas.
-
-A proposta é observar cada empresa utilizando critérios consistentes e identificar oportunidades de melhoria dentro de sua própria realidade.
-
-Exemplos de perguntas que o projeto busca responder:
-
-* Qual empresa disponibiliza maior detalhamento público de catálogo?
-* Onde existem lacunas de informação?
-* Quais portfólios possuem maior sobreposição?
-* Quais produtos merecem investigação manual?
-* Quais empresas apresentam maior maturidade de dados públicos?
-* Quais informações poderiam melhorar a descoberta dos produtos?
-* Como a estrutura pública de cada empresa pode evoluir?
-
----
-
-## Limitações atuais
-
-Existem limitações importantes no recorte analisado.
-
-### Preços
-
-As fontes consolidadas não disponibilizaram preços públicos suficientes para uma comparação confiável.
-
-Por isso, o projeto atualmente não compara:
-
-* preço;
-* margem;
-* desconto;
-* competitividade financeira;
-* política comercial.
 
 ### Granularidade
 
-Nem todas as empresas possuem catálogo público em nível de produto.
+As fontes não possuem o mesmo nível de detalhamento.
 
-Algumas fontes permitem análise apenas de:
-
-* marcas;
-* categorias;
-* segmentos;
-* posicionamento institucional.
-
-Essas diferenças são preservadas no modelo analítico.
+Por esse motivo, análises são feitas apenas quando os dados são comparáveis.
 
 ### Similaridade
 
-A similaridade textual não representa equivalência comercial automática.
+O matching é utilizado para **priorização de investigação**, e não para declarar substituição automática entre produtos.
 
-O resultado é usado apenas para:
+---
+
+# 🔐 Uso responsável
+
+O projeto utiliza informações públicas dentro do recorte analisado.
+
+Entre os princípios adotados:
+
+- registrar a origem dos dados;
+- preservar as fontes;
+- evitar inferências não sustentadas;
+- respeitar diferenças de granularidade;
+- manter revisão humana;
+- não tratar ausência de dado como ausência de operação;
+- revisar aspectos legais e termos de uso antes da coleta.
+
+---
+
+# 🎯 O que este projeto demonstra
 
 ```text
-priorizar investigação
+Public Data Collection
+        +
+Web Scraping
+        +
+Data Cleaning
+        +
+Data Quality
+        +
+Data Matching
+        +
+Market Intelligence
+        +
+Data Visualization
+        +
+Web Publishing
 ```
 
-e não para declarar que dois produtos são necessariamente substitutos.
+O resultado é uma solução que transforma informações públicas dispersas em uma base estruturada para **análise de mercado e geração de hipóteses de negócio**.
 
 ---
 
-## Qualidade dos dados
+<div align="center">
 
-O projeto inclui etapas específicas de auditoria.
+### Igor Monteiro
 
-Entre os pontos avaliados estão:
+**Data Analytics • Business Intelligence • Market Intelligence**
 
-* campos vazios;
-* códigos inválidos;
-* registros duplicados;
-* consistência de medidas;
-* padronização textual;
-* granularidade da fonte;
-* presença de informações relevantes.
+[LinkedIn](https://www.linkedin.com/in/igor-analistadedados) •
+[GitHub](https://github.com/igorlpc21)
 
-Arquivos relacionados à auditoria podem ser encontrados em:
-
-```text
-dados/tratados/
-```
-
----
-
-## Executando localmente
-
-Clone o repositório:
-
-```powershell
-git clone https://github.com/igorlpc21/observatorio-inteligencia-mercado.git
-```
-
-Entre na pasta:
-
-```powershell
-cd observatorio-inteligencia-mercado
-```
-
-Crie o ambiente virtual:
-
-```powershell
-python -m venv .venv
-```
-
-Ative:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-Instale as dependências:
-
-```powershell
-pip install -r requirements.txt
-```
-
-Inicie um servidor local:
-
-```powershell
-python -m http.server 8000
-```
-
-Abra no navegador:
-
-```text
-http://localhost:8000/
-```
-
-Não abra o `index.html` diretamente com duplo clique, pois o JavaScript precisa carregar os arquivos CSV pelo servidor HTTP.
-
----
-
-## Reproduzindo as principais etapas
-
-Algumas das principais saídas podem ser reconstruídas utilizando:
-
-```powershell
-python reconstruir_catalogo_validado.py
-python auditar_qualidade_catalogos.py
-python encontrar_produtos_semelhantes.py
-python gerar_indicadores_observatorio.py
-```
-
-Antes de executar coletores novamente, é importante verificar se a estrutura das páginas públicas permanece igual à utilizada originalmente.
-
----
-
-## Atualização do Observatório
-
-O projeto foi pensado para ser incremental.
-
-Novas fontes podem ser adicionadas mantendo o mesmo fluxo:
-
-```text
-nova fonte
-   ↓
-coleta
-   ↓
-normalização
-   ↓
-validação
-   ↓
-integração ao catálogo
-   ↓
-novos indicadores
-   ↓
-atualização do Observatório
-```
-
-Isso permite aumentar gradualmente a cobertura do mercado sem reconstruir toda a solução.
-
----
-
-## Uso responsável
-
-O projeto trabalha exclusivamente com informações públicas dentro do recorte analisado.
-
-Boas práticas adotadas:
-
-* preservar a fonte original;
-* registrar a origem das informações;
-* manter datas de referência;
-* evitar inferências além do que os dados permitem;
-* diferenciar ausência de informação de ausência de operação;
-* manter revisão humana;
-* respeitar diferenças de granularidade;
-* evitar exposição desnecessária de dados;
-* revisar termos de uso e aspectos legais antes de redistribuir materiais coletados.
-
----
-
-## Documentação
-
-A documentação complementar está disponível em:
-
-```text
-docs/
-```
-
-Incluindo informações sobre:
-
-* processo de coleta;
-* metodologia;
-* tratamento;
-* decisões analíticas;
-* versionamento;
-* atualização do projeto.
-
----
-
-## Contribuição
-
-Orientações para evolução do projeto estão disponíveis em:
-
-[`CONTRIBUTING.md`](CONTRIBUTING.md)
-
----
-
-## Acesso ao projeto
-
-### Observatório
-
-🌐 https://igorlpc21.github.io/observatorio-inteligencia-mercado/
-
-### Repositório
-
-💻 https://github.com/igorlpc21/observatorio-inteligencia-mercado
-
----
-
-## Status
-
-**Versão atual:** agosto de 2026
-
-O projeto permanece em evolução e pode receber novas empresas, fontes públicas, critérios de qualidade e métodos de análise conforme a disponibilidade dos dados.
+</div>
