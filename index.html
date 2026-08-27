@@ -1,71 +1,376 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta
     name="description"
-    content="Observatório de inteligência competitiva com cobertura de catálogos e similaridade de produtos."
+    content="Observatório de inteligência competitiva com cobertura de catálogos, qualidade dos dados e similaridade de produtos."
   >
 
   <title>Observatório — Inteligência de Mercado</title>
 
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Observatório, Inteligência de Mercado, início"><span class="brand-mark"><img src="assets/observatorio-mark.png" alt=""></span><span class="brand-copy">OBSERVATÓRIO <small>INTELIGÊNCIA DE MERCADO</small></span></a>
+
+    <a
+      class="brand"
+      href="#inicio"
+      aria-label="Observatório de Inteligência de Mercado - início"
+    >
+      <span class="brand-mark">OI</span>
+
+      <span class="brand-copy">
+        OBSERVATÓRIO
+        <small>INTELIGÊNCIA DE MERCADO</small>
+      </span>
+    </a>
+
     <nav aria-label="Navegação principal">
-      <a href="#panorama">Panorama</a><a href="#similaridade">Similaridade</a><a href="#metodologia">Método</a>
+      <a href="#panorama">Panorama</a>
+      <a href="#similaridade">Similaridade</a>
+      <a href="#metodologia">Método</a>
     </nav>
-    <span class="status"><i></i> Base local · ago/2026</span>
+
+    <span class="status">
+      <i></i>
+      Base local · ago/2026
+    </span>
+
   </header>
 
   <main id="inicio">
+
     <section class="hero">
-      <div class="eyebrow"><span>INTELIGÊNCIA COMPETITIVA</span><b>01</b></div>
-      <h1>O mercado em foco.<br><em>Decisões em movimento.</em></h1>
-      <p>Uma leitura objetiva do portfólio público de distribuidores, com cobertura, qualidade dos dados e produtos potencialmente equivalentes.</p>
-      <div class="hero-actions"><a class="button primary" href="#similaridade">Explorar equivalências <span>↘</span></a><a class="button ghost" href="#metodologia">Como calculamos</a></div>
-      <div class="hero-note"><span>ESCOPO ATUAL</span><strong>Variedade · nomes · embalagens</strong><small>Preços públicos não disponíveis nas fontes coletadas.</small></div>
-    </section>
 
-    <section class="section" id="panorama">
-      <div class="section-head"><div><span class="kicker">PANORAMA DO MERCADO</span><h2>Amplitude da observação</h2></div><p>Fontes públicas consolidadas em diferentes níveis de detalhe. Compare produto com produto apenas onde a granularidade permite.</p></div>
-      <div class="kpi-grid" id="kpis" aria-live="polite"></div>
-      <div class="grid two">
-        <article class="panel chart-panel"><div class="panel-head"><div><span class="panel-index">01</span><h3>Itens públicos por empresa</h3><p>Volume observado na fonte, em escala comparável.</p></div><span class="unit">ITENS</span></div><div id="coverageChart" class="chart" role="img" aria-label="Gráfico de barras de itens públicos por empresa"></div></article>
-        <article class="panel chart-panel"><div class="panel-head"><div><span class="panel-index">02</span><h3>Prontidão para comparação</h3><p>Preenchimento de medida e validade do código.</p></div><span class="unit">%</span></div><div id="qualityChart" class="chart" role="img" aria-label="Gráfico de pontos da qualidade dos catálogos"></div></article>
+      <div class="eyebrow">
+        <span>INTELIGÊNCIA COMPETITIVA</span>
+        <b>01</b>
       </div>
+
+      <h1>
+        O mercado em foco.
+        <br>
+        <em>Decisões em movimento.</em>
+      </h1>
+
+      <p>
+        Uma leitura objetiva do portfólio público de distribuidores,
+        considerando cobertura, qualidade dos dados e produtos
+        potencialmente equivalentes.
+      </p>
+
+      <div class="hero-actions">
+
+        <a
+          class="button primary"
+          href="#similaridade"
+        >
+          Explorar equivalências
+          <span>↘</span>
+        </a>
+
+        <a
+          class="button ghost"
+          href="#metodologia"
+        >
+          Como calculamos
+        </a>
+
+      </div>
+
+      <div class="hero-note">
+        <span>ESCOPO ATUAL</span>
+        <strong>Variedade · nomes · embalagens</strong>
+        <small>Preços públicos não disponíveis nas fontes coletadas.</small>
+      </div>
+
     </section>
 
-    <section class="section dark" id="similaridade">
-      <div class="section-head"><div><span class="kicker lime">MOTOR DE SIMILARIDADE</span><h2>Onde os portfólios se encontram</h2></div><p>O pareamento disponível cruza Milk e Fortali por embalagem equivalente e proximidade textual. Todo resultado é candidato à revisão humana.</p></div>
+    <section
+      class="section"
+      id="panorama"
+    >
+
+      <div class="section-head">
+
+        <div>
+          <span class="kicker">PANORAMA DO MERCADO</span>
+          <h2>Amplitude da observação</h2>
+        </div>
+
+        <p>
+          Fontes públicas consolidadas em diferentes níveis de detalhe.
+          A comparação produto a produto é realizada apenas quando
+          a granularidade dos dados permite.
+        </p>
+
+      </div>
+
+      <div
+        class="kpi-grid"
+        id="kpis"
+        aria-live="polite"
+      ></div>
+
+      <div class="grid two">
+
+        <article class="panel chart-panel">
+
+          <div class="panel-head">
+
+            <div>
+              <span class="panel-index">01</span>
+              <h3>Itens públicos por empresa</h3>
+              <p>Volume observado na fonte, em escala comparável.</p>
+            </div>
+
+            <span class="unit">ITENS</span>
+
+          </div>
+
+          <div
+            id="coverageChart"
+            class="chart"
+            role="img"
+            aria-label="Gráfico de barras de itens públicos por empresa"
+          ></div>
+
+        </article>
+
+        <article class="panel chart-panel">
+
+          <div class="panel-head">
+
+            <div>
+              <span class="panel-index">02</span>
+              <h3>Prontidão para comparação</h3>
+              <p>Preenchimento de medida e validade do código.</p>
+            </div>
+
+            <span class="unit">%</span>
+
+          </div>
+
+          <div
+            id="qualityChart"
+            class="chart"
+            role="img"
+            aria-label="Gráfico de qualidade dos catálogos"
+          ></div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section
+      class="section dark"
+      id="similaridade"
+    >
+
+      <div class="section-head">
+
+        <div>
+          <span class="kicker lime">MOTOR DE SIMILARIDADE</span>
+          <h2>Onde os portfólios se encontram</h2>
+        </div>
+
+        <p>
+          O pareamento disponível cruza Milk e Fortali por embalagem equivalente
+          e proximidade textual. Todo resultado representa um candidato
+          para posterior revisão humana.
+        </p>
+
+      </div>
+
       <div class="similarity-summary">
-        <div><span class="big-number" id="candidateCount">—</span><p>pares candidatos</p></div>
-        <div class="distribution" id="distribution"></div>
-        <div class="callout"><span>LEITURA-CHAVE</span><p id="insightText">Carregando análise…</p></div>
+
+        <div>
+          <span
+            class="big-number"
+            id="candidateCount"
+          >
+            —
+          </span>
+
+          <p>pares candidatos</p>
+        </div>
+
+        <div
+          class="distribution"
+          id="distribution"
+        ></div>
+
+        <div class="callout">
+          <span>LEITURA-CHAVE</span>
+          <p id="insightText">Carregando análise…</p>
+        </div>
+
       </div>
 
       <div class="workbench">
-        <div class="workbench-head"><div><span class="panel-index">03</span><h3>Bancada de equivalências</h3></div><div class="filters"><label>Faixa<select id="classFilter"><option value="Todas">Todas</option><option value="Alta">Alta · ≥85%</option><option value="Média">Média · 70–84%</option><option value="Baixa">Exploratória · 55–69%</option></select></label><label class="search-label">Buscar<input id="searchInput" type="search" placeholder="Produto ou marca…"></label></div></div>
-        <div class="table-wrap"><table><thead><tr><th>Produto Milk</th><th>Produto Fortali</th><th>Embalagem</th><th>Similaridade</th><th>Confiança</th></tr></thead><tbody id="matchesBody"></tbody></table></div>
-        <div class="table-footer"><span id="resultCount"></span><button id="loadMore" type="button">Mostrar mais</button></div>
+
+        <div class="workbench-head">
+
+          <div>
+            <span class="panel-index">03</span>
+            <h3>Bancada de equivalências</h3>
+          </div>
+
+          <div class="filters">
+
+            <label>
+              Faixa
+
+              <select id="classFilter">
+                <option value="Todas">Todas</option>
+                <option value="Alta">Alta · ≥85%</option>
+                <option value="Média">Média · 70–84%</option>
+                <option value="Baixa">Exploratória · 55–69%</option>
+              </select>
+
+            </label>
+
+            <label class="search-label">
+              Buscar
+
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Produto ou marca…"
+              >
+            </label>
+
+          </div>
+
+        </div>
+
+        <div class="table-wrap">
+
+          <table>
+
+            <thead>
+              <tr>
+                <th>Produto Milk</th>
+                <th>Produto Fortali</th>
+                <th>Embalagem</th>
+                <th>Similaridade</th>
+                <th>Confiança</th>
+              </tr>
+            </thead>
+
+            <tbody id="matchesBody"></tbody>
+
+          </table>
+
+        </div>
+
+        <div class="table-footer">
+          <span id="resultCount"></span>
+
+          <button
+            id="loadMore"
+            type="button"
+          >
+            Mostrar mais
+          </button>
+        </div>
+
       </div>
+
     </section>
 
-    <section class="section method" id="metodologia">
-      <div class="section-head"><div><span class="kicker">METODOLOGIA</span><h2>Comparável por construção</h2></div><p>O índice ajuda a priorizar investigação; não declara equivalência comercial.</p></div>
-      <div class="method-grid">
-        <article><b>01</b><h3>Normalização</h3><p>Caixa alta, acentos e pontuação são padronizados. Medidas saem do nome para serem avaliadas separadamente.</p></article>
-        <article><b>02</b><h3>Bloqueio por embalagem</h3><p>Somente produtos com mesma quantidade-base e unidade entram no conjunto de candidatos.</p></article>
-        <article><b>03</b><h3>Similaridade textual</h3><p>A razão de sequência entre nomes normalizados gera uma pontuação de 0 a 100.</p></article>
-        <article><b>04</b><h3>Revisão humana</h3><p>Alta ≥85%; média 70–84%; exploratória 55–69%. Marca, sabor e aplicação ainda precisam ser confirmados.</p></article>
+    <section
+      class="section method"
+      id="metodologia"
+    >
+
+      <div class="section-head">
+
+        <div>
+          <span class="kicker">METODOLOGIA</span>
+          <h2>Comparável por construção</h2>
+        </div>
+
+        <p>
+          O índice ajuda a priorizar investigação e análise competitiva.
+          Ele não declara equivalência comercial.
+        </p>
+
       </div>
-      <div class="source-note"><strong>Fontes da versão</strong><p>Catálogos públicos e páginas coletadas no projeto. Milk: catálogo de 14/02/2022. Demais bases: coletas de agosto/2026. Nenhuma fonte continha preço público no recorte consolidado.</p></div>
+
+      <div class="method-grid">
+
+        <article>
+          <b>01</b>
+          <h3>Normalização</h3>
+          <p>
+            Caixa alta, acentos e pontuação são padronizados.
+            Medidas são retiradas do nome do produto para análise separada.
+          </p>
+        </article>
+
+        <article>
+          <b>02</b>
+          <h3>Bloqueio por embalagem</h3>
+          <p>
+            Somente produtos com mesma quantidade-base e mesma unidade
+            entram no conjunto de candidatos.
+          </p>
+        </article>
+
+        <article>
+          <b>03</b>
+          <h3>Similaridade textual</h3>
+          <p>
+            A proximidade entre nomes normalizados gera
+            uma pontuação de similaridade entre 0 e 100.
+          </p>
+        </article>
+
+        <article>
+          <b>04</b>
+          <h3>Revisão humana</h3>
+          <p>
+            Alta ≥85%; média 70–84%; exploratória 55–69%.
+            Marca, sabor, aplicação e contexto comercial
+            ainda precisam ser confirmados.
+          </p>
+        </article>
+
+      </div>
+
+      <div class="source-note">
+
+        <strong>Fontes da versão</strong>
+
+        <p>
+          Catálogos públicos e páginas coletadas no projeto.
+          Milk: catálogo de 14/02/2022.
+          Demais bases: coletas realizadas em agosto de 2026.
+          Nenhuma fonte continha preço público no recorte consolidado.
+        </p>
+
+      </div>
+
     </section>
+
   </main>
-  <footer><span>OBSERVATÓRIO · INTELIGÊNCIA DE MERCADO</span><span>Dados locais · leitura responsável</span></footer>
+
+  <footer>
+    <span>OBSERVATÓRIO · INTELIGÊNCIA DE MERCADO</span>
+    <span>Dados públicos · leitura responsável</span>
+  </footer>
+
   <script src="app.js"></script>
+
 </body>
 </html>
