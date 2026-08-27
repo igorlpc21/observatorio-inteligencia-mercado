@@ -1,0 +1,116 @@
+ANÁLISE ESTÁTICA REDIGIDA
+============================================================
+Data: 19/08/2026 12:51:30 -0300
+Fonte pública: https://mercadodosabor.com.br/static/js/main.1fab0e69.chunk.js
+
+Nenhum valor completo foi registrado neste relatório.
+Os indicadores representam proximidade no código e precisam de validação técnica.
+
+Campo: Auth-Token
+Ocorrência: 1
+Tamanho: 94
+SHA-256 parcial: 76d8bbfb2ef6acec
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: SIM
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: client_id
+Ocorrência: 1
+Tamanho: 64
+SHA-256 parcial: a30435d0d3baa5c8
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: SIM
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: client_id
+Ocorrência: 2
+Tamanho: 43
+SHA-256 parcial: 6f7d12cc98105285
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: NÃO
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: client_secret
+Ocorrência: 1
+Tamanho: 64
+SHA-256 parcial: e7be6df407ea6cef
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: SIM
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: client_secret
+Ocorrência: 2
+Tamanho: 43
+SHA-256 parcial: 276e3bce56072f81
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: NÃO
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: Firebase apiKey
+Ocorrência: 1
+Tamanho: 39
+SHA-256 parcial: 59627cf5a06ad3cd
+Próximo de chamada HTTP: NÃO
+Próximo de fluxo OAuth: NÃO
+Próximo de cabeçalho: NÃO
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: NÃO
+---------------------------------------------
+Campo: Chave fixa de criptografia
+Ocorrência: 1
+Tamanho: 14
+SHA-256 parcial: 8d2b46f647c4e6a4
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: SIM
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: Chave fixa de criptografia
+Ocorrência: 2
+Tamanho: 14
+SHA-256 parcial: 8d2b46f647c4e6a4
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: SIM
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: Chave fixa de criptografia
+Ocorrência: 3
+Tamanho: 14
+SHA-256 parcial: 8d2b46f647c4e6a4
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: SIM
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+Campo: Chave fixa de criptografia
+Ocorrência: 4
+Tamanho: 14
+SHA-256 parcial: 8d2b46f647c4e6a4
+Próximo de chamada HTTP: SIM
+Próximo de fluxo OAuth: SIM
+Próximo de cabeçalho: NÃO
+Próximo de armazenamento local: SIM
+Próximo de função criptográfica: SIM
+---------------------------------------------
+
+Total de ocorrências analisadas: 10
+
+LIMITAÇÕES
+- Nenhuma credencial foi utilizada.
+- Nenhuma requisição foi enviada para a API.
+- Nenhum contexto bruto foi salvo.
+- Proximidade no JavaScript não confirma utilização efetiva.

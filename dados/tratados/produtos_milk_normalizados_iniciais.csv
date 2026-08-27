@@ -1,0 +1,145 @@
+﻿empresa,produto_extraido,codigo_produto,codigo_valido,pagina_catalogo,data_catalogo,metodo_extracao,qualidade_extracao,revisao_necessaria,fonte,quantidade_original,unidade_original,quantidade_padronizada,unidade_padronizada,produto_padronizado_inicial,motivos_revisao
+Milk Distribuidora,BLUEBERRY,02,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BLUEBERRY,Embalagem não identificada
+Milk Distribuidora,BAUNILHA,109,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BAUNILHA,Embalagem não identificada
+Milk Distribuidora,FRUTAS TROPICAIS,112,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,FRUTAS TROPICAIS,Embalagem não identificada
+Milk Distribuidora,QUEIJO,114,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,QUEIJO,Embalagem não identificada
+Milk Distribuidora,COOKIE LEITINHO,115,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,COOKIE LEITINHO,Embalagem não identificada
+Milk Distribuidora,TAPIOCA,116,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,TAPIOCA,Embalagem não identificada
+Milk Distribuidora,CHICLETE,127,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHICLETE,Embalagem não identificada
+Milk Distribuidora,MORANGO,128,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO,Embalagem não identificada
+Milk Distribuidora,STARGEL 20KG,130,Sim,2,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,20.0,KG,20.0,KG,STARGEL,
+Milk Distribuidora,CHOCOLATE BELGA,131,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE BELGA,Embalagem não identificada
+Milk Distribuidora,LEITINHO,132,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,LEITINHO,Embalagem não identificada
+Milk Distribuidora,PUDIM,134,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,PUDIM,Embalagem não identificada
+Milk Distribuidora,ABACATE,148,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,ABACATE,Embalagem não identificada
+Milk Distribuidora,CUPUAÇÚ,149,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CUPUAÇÚ,Embalagem não identificada
+Milk Distribuidora,GOIABA,150,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,GOIABA,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE PREMIUM,156,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE PREMIUM,Embalagem não identificada
+Milk Distribuidora,IOGURTE ESPECIAL,171,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,IOGURTE ESPECIAL,Embalagem não identificada
+Milk Distribuidora,LEITE CONDENSADO,21,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,LEITE CONDENSADO,Embalagem não identificada
+Milk Distribuidora,MORANGO STAR,22,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO STAR,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE BRANCO,23,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE BRANCO,Embalagem não identificada
+Milk Distribuidora,GRAVIOLA ESPECIAL,24,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,GRAVIOLA ESPECIAL,Embalagem não identificada
+Milk Distribuidora,AZULATO,25,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,AZULATO,Embalagem não identificada
+Milk Distribuidora,UVA,26,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,UVA,Embalagem não identificada
+Milk Distribuidora,NATA GUARANI,27,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,NATA GUARANI,Embalagem não identificada
+Milk Distribuidora,CRISTALIZADO UVA,28,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CRISTALIZADO UVA,Embalagem não identificada
+Milk Distribuidora,BAUNILHA BRANCA,31,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BAUNILHA BRANCA,Embalagem não identificada
+Milk Distribuidora,ABACAXI,38,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,ABACAXI,Embalagem não identificada
+Milk Distribuidora,ABACAXI HAVAI,39,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,ABACAXI HAVAI,Embalagem não identificada
+Milk Distribuidora,STARGEL KR 10KG,40,Sim,2,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,10.0,KG,10.0,KG,STARGEL KR,
+Milk Distribuidora,BANANA,41,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BANANA,Embalagem não identificada
+Milk Distribuidora,BRIGADEIRO ESPECIAL,42,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BRIGADEIRO ESPECIAL,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE,43,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE BRANCO,44,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE BRANCO,Embalagem não identificada
+Milk Distribuidora,COCO,45,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,COCO,Embalagem não identificada
+Milk Distribuidora,COCO,46,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,COCO,Embalagem não identificada
+Milk Distribuidora,CREME VANILA,47,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CREME VANILA,Embalagem não identificada
+Milk Distribuidora,DOCE DE LEITE,48,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,DOCE DE LEITE,Embalagem não identificada
+Milk Distribuidora,GRAVIOLA,49,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,GRAVIOLA,Embalagem não identificada
+Milk Distribuidora,IOGURTE MORANGO,50,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,IOGURTE MORANGO,Embalagem não identificada
+Milk Distribuidora,LEITE CONDENSADO,51,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,LEITE CONDENSADO,Embalagem não identificada
+Milk Distribuidora,MARACUJÁ,52,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MARACUJÁ,Embalagem não identificada
+Milk Distribuidora,MILHO VERDE,53,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MILHO VERDE,Embalagem não identificada
+Milk Distribuidora,MORANGO,54,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO,Embalagem não identificada
+Milk Distribuidora,MORANGO STAR,55,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO STAR,Embalagem não identificada
+Milk Distribuidora,NATA,56,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,NATA,Embalagem não identificada
+Milk Distribuidora,TORTA DE LIMÃO,57,Sim,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,TORTA DE LIMÃO,Embalagem não identificada
+Milk Distribuidora,STARGEL 10KG,58,Sim,2,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,10.0,KG,10.0,KG,STARGEL,
+Milk Distribuidora,CAPPUCCINO,XX,Não,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CAPPUCCINO,Código XX; Embalagem não identificada
+Milk Distribuidora,CREME DE AVELÃ • 4 Kg,099,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.0,KG,4.0,KG,CREME DE AVELÃ •,
+Milk Distribuidora,MORANGO,100,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO,Embalagem não identificada
+Milk Distribuidora,MORANGO,101,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO,Embalagem não identificada
+Milk Distribuidora,CHOC MEIO AMARGO,102,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOC MEIO AMARGO,Embalagem não identificada
+Milk Distribuidora,"MORANGO • 4,5 Kg",103,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.5,KG,4.5,KG,MORANGO •,
+Milk Distribuidora,CHOCOLATE,104,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE,105,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE,Embalagem não identificada
+Milk Distribuidora,CARAMELO GOUMET • 5 Kg,106,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,5.0,KG,5.0,KG,CARAMELO GOUMET •,
+Milk Distribuidora,CHOCOLATE TRUFADO • 4 Kg,107,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.0,KG,4.0,KG,CHOCOLATE TRUFADO •,
+Milk Distribuidora,TRUFA BRANCA • 4 Kg,108,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.0,KG,4.0,KG,TRUFA BRANCA •,
+Milk Distribuidora,LEITINHO • 4 Kg,111,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.0,KG,4.0,KG,LEITINHO •,
+Milk Distribuidora,"FRUTAS DO BOSQUE • 1,2KG",153,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,1.2,KG,1.2,KG,FRUTAS DO BOSQUE •,
+Milk Distribuidora,LIGA STARMIX G • 3 KG,157,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,3.0,KG,3.0,KG,LIGA STARMIX G •,
+Milk Distribuidora,CARAMELO,17,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CARAMELO,Embalagem não identificada
+Milk Distribuidora,NEUTRA ARTESANAL • 1 KG,18,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,NEUTRA ARTESANAL •,
+Milk Distribuidora,LIGA STARMIX G • 2 KG,19,Sim,3,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,2.0,KG,2.0,KG,LIGA STARMIX G •,
+Milk Distribuidora,CHOCOLATE,20,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE,Embalagem não identificada
+Milk Distribuidora,TRADICIONAL,29,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,TRADICIONAL,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE BRANCO,30,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE BRANCO,Embalagem não identificada
+Milk Distribuidora,CHOCOLATE PARA FLOCOS,36,Sim,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE PARA FLOCOS,Embalagem não identificada
+Milk Distribuidora,CARAMELO,XX,Não,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CARAMELO,Código XX; Embalagem não identificada
+Milk Distribuidora,MORANGO,XX,Não,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO,Código XX; Embalagem não identificada
+Milk Distribuidora,CAFÉ • 1 Kg,XX,Não,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,CAFÉ •,Código XX
+Milk Distribuidora,CHOC. CHOC. MEIO,12,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOC. CHOC. MEIO,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,"CROCANTE • 1,050 KG",121,Sim,4,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,CROCANTE •,
+Milk Distribuidora,BRANCO • 5 KG AMARGO • 5 KG,13,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,5.0,KG,5.0,KG,BRANCO • AMARGO •,Extração por coordenadas
+Milk Distribuidora,"MACIO • 1,050 KG",14,Sim,4,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,MACIO •,
+Milk Distribuidora,"GRANULADO CHOCOLATE DORI • 1,010 KG",173,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.01,KG,1.01,KG,GRANULADO CHOCOLATE DORI •,Extração por coordenadas
+Milk Distribuidora,COLORETI MINI SORTIDO • 500G,175,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,COLORETI MINI SORTIDO •,Extração por coordenadas
+Milk Distribuidora,CHOC. CHOC. MEIO,271,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOC. CHOC. MEIO,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,BRANCO • 5 KG AMARGO • 5 KG,272,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,5.0,KG,5.0,KG,BRANCO • AMARGO •,Extração por coordenadas
+Milk Distribuidora,CHOCOCANDY PASTILHA COLORIDA 500 G,94,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,CHOCOCANDY PASTILHA COLORIDA,Extração por coordenadas
+Milk Distribuidora,"DISQUETE CHOCOLATE • 1,010 KG",95,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.01,KG,1.01,KG,DISQUETE CHOCOLATE •,Extração por coordenadas
+Milk Distribuidora,GRANULADO TRDICIONAL KERRY • 1 KG,98,Sim,4,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,GRANULADO TRDICIONAL KERRY •,Extração por coordenadas
+Milk Distribuidora,MINI CEREAL CROCANTE M BRANCO/PRETO 500 G,122,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,MINI CEREAL CROCANTE M BRANCO/PRETO,Extração por coordenadas
+Milk Distribuidora,BIG CEREAL CROCANTE CHOCOLATE 500 G,123,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,BIG CEREAL CROCANTE CHOCOLATE,Extração por coordenadas
+Milk Distribuidora,"COB GTS MEIO AMARGO 1,050 KG",161,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,COB GTS MEIO AMARGO,Extração por coordenadas
+Milk Distribuidora,"COB. CHIPSHOW AVELÃ TOP 1,050 KG",168,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,COB. CHIPSHOW AVELÃ TOP,Extração por coordenadas
+Milk Distribuidora,"COB. CHIPSHOW BRANCO TOP 1,050 KG",169,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,COB. CHIPSHOW BRANCO TOP,Extração por coordenadas
+Milk Distribuidora,COLORETI MINI BALL MISTO 500 G,177,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,COLORETI MINI BALL MISTO,Extração por coordenadas
+Milk Distribuidora,COLORETI BALL 500 G,179,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,COLORETI BALL,Extração por coordenadas
+Milk Distribuidora,BIG CEREAL CHOC. BRANCO 500 G,273,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,BIG CEREAL CHOC. BRANCO,Extração por coordenadas
+Milk Distribuidora,GRANULADO MACIO COLORIDO,291,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,GRANULADO MACIO COLORIDO,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,MINI CEREAL CROCANTE P BRANCO/PRETO 500 G,292,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,MINI CEREAL CROCANTE P BRANCO/PRETO,Extração por coordenadas
+Milk Distribuidora,BIG CEREAL BRANCO/PRETO 500 G,293,Sim,5,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,500.0,G,0.5,KG,BIG CEREAL BRANCO/PRETO,Extração por coordenadas
+Milk Distribuidora,FLOCOS DE ARROZ A GRANEL,110,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,FLOCOS DE ARROZ A GRANEL,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,FLOCOS CROCANTES OVOMALTINE 750 G,118,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,750.0,G,0.75,KG,FLOCOS CROCANTES OVOMALTINE,Extração por coordenadas
+Milk Distribuidora,CHOCOLATE EM PÓ SOLÚVEL 50% CACAU,124,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CHOCOLATE EM PÓ SOLÚVEL 50% CACAU,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,UVA PASSA CAIXA 10 KG,163,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,10.0,KG,10.0,KG,UVA PASSA CAIXA,Extração por coordenadas
+Milk Distribuidora,NUTELLA COM AVELÃ 650 G,172,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,650.0,G,0.65,KG,NUTELLA COM AVELÃ,Extração por coordenadas
+Milk Distribuidora,PAÇOQUINHA TUBITOS CAIXA,176,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,PAÇOQUINHA TUBITOS CAIXA,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,PAÇOQUINHA TUBITOS POTE 750 G,178,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,750.0,G,0.75,KG,PAÇOQUINHA TUBITOS POTE,Extração por coordenadas
+Milk Distribuidora,FLOCOS DE ARROZ 400 G,37,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,400.0,G,0.4,KG,FLOCOS DE ARROZ,Extração por coordenadas
+Milk Distribuidora,GOMETS GOMA SINO 1 KG,93,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,GOMETS GOMA SINO,Extração por coordenadas
+Milk Distribuidora,"PAÇOQUINHA ROLHA POTE 1,25 KG",96,Sim,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.25,KG,1.25,KG,PAÇOQUINHA ROLHA POTE,Extração por coordenadas
+Milk Distribuidora,"OVOMALTINE CREME CROCANTE 2,10 KG",XX,Não,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,2.1,KG,2.1,KG,OVOMALTINE CREME CROCANTE,Extração por coordenadas; Código XX
+Milk Distribuidora,CACAU EM PÓ ALCALINO BARRY 25 KG,05,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,25.0,KG,25.0,KG,CACAU EM PÓ ALCALINO BARRY,Extração por coordenadas
+Milk Distribuidora,"COBERTURA CHIPSHOW CHOCOLATE AO LEITE 2,5 KG",06,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,2.5,KG,2.5,KG,COBERTURA CHIPSHOW CHOCOLATE AO LEITE,Extração por coordenadas
+Milk Distribuidora,CACAU PROCESSADO BENSDORP BARRY 5 KG,125,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,5.0,KG,5.0,KG,CACAU PROCESSADO BENSDORP BARRY,Extração por coordenadas
+Milk Distribuidora,CREME DE CHANTILLY,144,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CREME DE CHANTILLY,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,BRIGADEIRO DE COLHER ALISPEC • 1 KG,266,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,BRIGADEIRO DE COLHER ALISPEC •,Extração por coordenadas
+Milk Distribuidora,"RECHEIO COBERTURA CHOCOLATE • 1,05 KG",276,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,RECHEIO COBERTURA CHOCOLATE •,Extração por coordenadas
+Milk Distribuidora,BEBIDA LÁCTEA VIGOR BAUNILHA,281,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BEBIDA LÁCTEA VIGOR BAUNILHA,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,CREME CULINÁRIO BRIGATTA,282,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CREME CULINÁRIO BRIGATTA,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,PASTA DE AMENDOIM NUT • 4KG,286,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,4.0,KG,4.0,KG,PASTA DE AMENDOIM NUT •,Extração por coordenadas
+Milk Distribuidora,AMENDOIM GRANULADOS NUT,287,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,AMENDOIM GRANULADOS NUT,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,AMENDOIM BANDA NUT • 1KG,288,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,AMENDOIM BANDA NUT •,Extração por coordenadas
+Milk Distribuidora,BEBIDA LÁCTEA VIGOR CHOCOLATE,289,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,BEBIDA LÁCTEA VIGOR CHOCOLATE,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,"DOCE DE SORO DE LEITE COM CHOC. 9,8KG",04,Sim,8,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,9.8,KG,9.8,KG,DOCE DE SORO DE LEITE COM CHOC,Extração por coordenadas
+Milk Distribuidora,"DOCE DE SORO DE LEITE TRADICIONAL 4,8 KG",09,Sim,8,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,4.8,KG,4.8,KG,DOCE DE SORO DE LEITE TRADICIONAL,Extração por coordenadas
+Milk Distribuidora,"2,5 KG",142,Sim,8,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,2.5,KG,2.5,KG,,
+Milk Distribuidora,"CHOCOLATE EM PÓ MELKEN 50% 1,050 KG",15,Sim,8,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.05,KG,1.05,KG,CHOCOLATE EM PÓ MELKEN 50%,Extração por coordenadas
+Milk Distribuidora,"DOCE DE LEITE PARA CONFEITARIA AUREA 4,5 KG",154,Sim,8,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,4.5,KG,4.5,KG,DOCE DE LEITE PARA CONFEITARIA AUREA,Extração por coordenadas
+Milk Distribuidora,GANACHE MEIO AMARGO MELKEN 1 KG,166,Sim,8,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,GANACHE MEIO AMARGO MELKEN,Extração por coordenadas
+Milk Distribuidora,GANACHE AVELÃ MELKEN 1 KG,167,Sim,8,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,GANACHE AVELÃ MELKEN,Extração por coordenadas
+Milk Distribuidora,"4,5 KG",32,Sim,8,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.5,KG,4.5,KG,,
+Milk Distribuidora,"FRAMBOESA 1,8 KG",XX,Não,8,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.8,KG,1.8,KG,FRAMBOESA,Código XX
+Milk Distribuidora,"FRUTAS DO BOSQUE 1,8 KG",XX,Não,8,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.8,KG,1.8,KG,FRUTAS DO BOSQUE,Código XX
+Milk Distribuidora,OLEO DE PALMISTE REFINADO CAIXA,03,Sim,9,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,OLEO DE PALMISTE REFINADO CAIXA,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,"MORANGO 4,1 KG",08,Sim,9,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.1,KG,4.1,KG,MORANGO,
+Milk Distribuidora,"FRUTAS VERMELHAS 4,1 KG",113,Sim,9,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.1,KG,4.1,KG,FRUTAS VERMELHAS,
+Milk Distribuidora,OLEO DE PALMISTE REFINADO BALDE,117,Sim,9,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,OLEO DE PALMISTE REFINADO BALDE,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,"ABACAXI 4,1 KG",159,Sim,9,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.1,KG,4.1,KG,ABACAXI,
+Milk Distribuidora,"ABACAXI AO VINHO 4,1 KG",174,Sim,9,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.1,KG,4.1,KG,ABACAXI AO VINHO,
+Milk Distribuidora,"BANANA CARAMELIZADA 4,1 KG",265,Sim,9,2022-02-14,lista_pontilhada,Alta,Não,dados\catalogos\catalogo_milk_2022.pdf,4.1,KG,4.1,KG,BANANA CARAMELIZADA,
+Milk Distribuidora,LEITE CONDENSADO PURELAC 5 KG,282,Sim,9,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,5.0,KG,5.0,KG,LEITE CONDENSADO PURELAC,Extração por coordenadas
+Milk Distribuidora,"CREME DE GOIABA 4,8 KG",97,Sim,9,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,4.8,KG,4.8,KG,CREME DE GOIABA,Extração por coordenadas
+Milk Distribuidora,Kerrylac 800i,120,Sim,10,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,Kerrylac 800i,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,GORDURA DE PALMA 370B,257,Sim,10,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,GORDURA DE PALMA 370B,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,GLUCODRY 40 25 KG,33,Sim,10,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,25.0,KG,25.0,KG,GLUCODRY 40,Extração por coordenadas
+Milk Distribuidora,GLUCOGILL 40/82 25 KG,34,Sim,10,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,25.0,KG,25.0,KG,GLUCOGILL 40/82,Extração por coordenadas
+Milk Distribuidora,COPO BAMBA ESPECIAL,261,Sim,11,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,COPO BAMBA ESPECIAL,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,COPO BIJU,262,Sim,11,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,COPO BIJU,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,ROLINHO BIJU,279,Sim,11,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,ROLINHO BIJU,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,CASCÃO,283,Sim,11,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CASCÃO,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,COPO BISCOITO,290,Sim,11,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,COPO BISCOITO,Extração por coordenadas; Embalagem não identificada

@@ -1,0 +1,84 @@
+CONFIRMAÇÃO PASSIVA DE EXPOSIÇÃO
+============================================================
+Data: 19/08/2026 12:37:37 -0300
+Site: https://mercadodosabor.com.br/
+JavaScript: https://mercadodosabor.com.br/static/js/main.1fab0e69.chunk.js
+
+1. PÁGINA PRINCIPAL
+Status HTTP: 200
+URL final: https://mercadodosabor.com.br/
+Content-Type: text/html; charset=UTF-8
+JavaScript referenciado pelo site: SIM
+Scripts públicos encontrados: 8
+
+2. ARQUIVO JAVASCRIPT
+Status HTTP: 200
+URL final: https://mercadodosabor.com.br/static/js/main.1fab0e69.chunk.js
+Tamanho: 1144861 bytes
+Content-Type: application/javascript; charset=UTF-8
+ETag: W/"11781d-19f3d3367d2"
+Last-Modified: Tue, 07 Jul 2026 15:30:06 GMT
+Cache-Control: public, max-age=0
+SHA-256 do JavaScript: 2eee929e4f49a4f9170ded0dc621db36b55e81c7ea06111767a52ee2d2a825ab
+Referência a source map: SIM
+
+3. CAMPOS LOCALIZADOS
+Os valores completos não foram registrados.
+
+Campo: Auth-Token
+Encontrado: SIM
+Ocorrências: 1
+Tamanho: 94
+SHA-256 parcial: 76d8bbfb2ef6acec
+Classificação: Potencial credencial
+----------------------------------------
+Campo: client_id
+Encontrado: SIM
+Ocorrências: 2
+Tamanho: 64
+SHA-256 parcial: a30435d0d3baa5c8
+Classificação: Identificador OAuth
+----------------------------------------
+Campo: client_id
+Encontrado: SIM
+Ocorrências: 2
+Tamanho: 43
+SHA-256 parcial: 6f7d12cc98105285
+Classificação: Identificador OAuth
+----------------------------------------
+Campo: client_secret
+Encontrado: SIM
+Ocorrências: 2
+Tamanho: 64
+SHA-256 parcial: e7be6df407ea6cef
+Classificação: Potencial segredo OAuth
+----------------------------------------
+Campo: client_secret
+Encontrado: SIM
+Ocorrências: 2
+Tamanho: 43
+SHA-256 parcial: 276e3bce56072f81
+Classificação: Potencial segredo OAuth
+----------------------------------------
+Campo: Firebase apiKey
+Encontrado: SIM
+Ocorrências: 1
+Tamanho: 39
+SHA-256 parcial: 59627cf5a06ad3cd
+Classificação: Configuração pública a revisar
+----------------------------------------
+Campo: Chave fixa de criptografia
+Encontrado: SIM
+Ocorrências: 4
+Tamanho: 14
+SHA-256 parcial: 8d2b46f647c4e6a4
+Classificação: Material criptográfico no frontend
+----------------------------------------
+
+4. LIMITAÇÕES
+- Nenhuma credencial foi utilizada.
+- Nenhuma autenticação foi realizada.
+- Nenhum endpoint protegido foi testado.
+- Nenhum dado pessoal foi consultado.
+- O conteúdo bruto do JavaScript não foi salvo.
+- A existência dos campos não confirma acesso indevido.

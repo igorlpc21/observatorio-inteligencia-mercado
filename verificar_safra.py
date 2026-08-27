@@ -1,0 +1,1 @@
+URL_SITE = "https://www.distribuidorasafra.com.br/"

@@ -1,0 +1,6 @@
+﻿empresa,nivel_dado,registros_publicos,itens_unicos,categorias_identificadas,taxa_medida_preenchida_pct,taxa_codigo_valido_pct,registros_com_preco,escopo_comparavel
+Casa Garcia Gourmet,PRODUTO,1627,1627,5,79.04,100.0,0,"Variedade, nomes e embalagens"
+Fortali Distribuidora,PRODUTO,3226,3226,1,78.95,100.0,0,"Variedade, nomes e embalagens"
+Milk Distribuidora,PRODUTO,144,144,0,46.53,93.75,0,"Variedade, nomes e embalagens"
+Safra Distribuidora,MARCA,31,31,3,,,0,Presença de marcas e segmentos
+WMix Ceará,SEGMENTO,5,5,5,,,0,Posicionamento público por segmento

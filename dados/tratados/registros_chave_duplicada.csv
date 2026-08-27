@@ -1,0 +1,10 @@
+﻿empresa_auditoria,empresa,produto_extraido,codigo_produto,codigo_valido,pagina_catalogo,data_catalogo,metodo_extracao,qualidade_extracao,revisao_necessaria,fonte,quantidade_original,unidade_original,quantidade_padronizada,unidade_padronizada,produto_padronizado_inicial,motivos_revisao
+Milk Distribuidora,Milk Distribuidora,CAPPUCCINO,XX,Não,2,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CAPPUCCINO,Código XX; Embalagem não identificada
+Milk Distribuidora,Milk Distribuidora,CARAMELO,XX,Não,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CARAMELO,Código XX; Embalagem não identificada
+Milk Distribuidora,Milk Distribuidora,MORANGO,XX,Não,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,MORANGO,Código XX; Embalagem não identificada
+Milk Distribuidora,Milk Distribuidora,CAFÉ • 1 Kg,XX,Não,3,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.0,KG,1.0,KG,CAFÉ •,Código XX
+Milk Distribuidora,Milk Distribuidora,"OVOMALTINE CREME CROCANTE 2,10 KG",XX,Não,6,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,2.1,KG,2.1,KG,OVOMALTINE CREME CROCANTE,Extração por coordenadas; Código XX
+Milk Distribuidora,Milk Distribuidora,CREME CULINÁRIO BRIGATTA,282,Sim,7,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,,,,,CREME CULINÁRIO BRIGATTA,Extração por coordenadas; Embalagem não identificada
+Milk Distribuidora,Milk Distribuidora,"FRAMBOESA 1,8 KG",XX,Não,8,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.8,KG,1.8,KG,FRAMBOESA,Código XX
+Milk Distribuidora,Milk Distribuidora,"FRUTAS DO BOSQUE 1,8 KG",XX,Não,8,2022-02-14,lista_pontilhada,Alta,Sim,dados\catalogos\catalogo_milk_2022.pdf,1.8,KG,1.8,KG,FRUTAS DO BOSQUE,Código XX
+Milk Distribuidora,Milk Distribuidora,LEITE CONDENSADO PURELAC 5 KG,282,Sim,9,2022-02-14,coordenadas_pdf,Média,Sim,dados\catalogos\catalogo_milk_2022.pdf,5.0,KG,5.0,KG,LEITE CONDENSADO PURELAC,Extração por coordenadas

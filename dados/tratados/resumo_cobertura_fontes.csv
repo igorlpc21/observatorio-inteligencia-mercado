@@ -1,0 +1,6 @@
+﻿empresa,arquivo,granularidade,registros,itens_unicos,categorias_identificadas,registros_com_preco,cobertura_analitica
+Milk Distribuidora,produtos_milk_normalizados_iniciais.csv,PRODUTO,144,137,0,0,Catálogo detalhado; permite análises de variedade e correspondência
+Fortali Distribuidora,produtos_fortali_normalizados.csv,PRODUTO,3226,3226,1,0,Catálogo detalhado; permite análises de variedade e correspondência
+Casa Garcia Gourmet,produtos_casa_garcia_normalizados.csv,PRODUTO,1627,1627,5,0,Catálogo detalhado; permite análises de variedade e correspondência
+Safra Distribuidora,portfolio_marcas_safra.csv,MARCA,31,31,3,0,Portfólio de marcas; permite análises de presença e posicionamento
+WMix Ceará,perfil_publico_wmix.csv,SEGMENTO,5,5,5,0,Perfil de segmentos; permite somente análise de posicionamento público
